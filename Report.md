@@ -20,6 +20,10 @@ rơi vào mất cân bằng.
 Theo em nghĩ, sau khi làm test và code thì em nhận ra chúng ta không nên chỉ dùng 1 thuật toán sort cho mọi dữ liệu, vì đôi khi với các bộ dữ liệu khác nhau thì sẽ
 tương thích với các test khác nhau.
 
+
+Dĩ nhiên thì các hàm có sẵn đã được tối ưu hóa và nó thường sẽ là người thắng cuộc trong cuộc chạy đua thời gian với
+các bộ dữ liệu khác nhau từ 1-1,000,000. Theo như em nghĩ nếu thay đổi thành như thế, có khả năng các hàm tích hợp sẵn sẽ lợi thế hơn vì nó được tạo nên từ nhiều giải thuật chứ không phải một giải thuật độc lập nào hết như thực nghiệm.
+
 ### Cách tiếp cận khác của vấn đề
 
 Ngoài những thực nghiệm trên, ta cũng không thể bỏ qua vấn đề ở phần cứng (CPU) đã gây ra sự chậm hơn giữa các khoảng thời gian chạy test, giải thuật và code cũng nên được cân nhắc vì có thể chưa tối ưu hóa được giải thuật (mergesort) nên dẫn đến mất cân đối trong thời gian trung bình chạy. 

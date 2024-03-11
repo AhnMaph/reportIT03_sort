@@ -20,5 +20,9 @@ rơi vào mất cân bằng.
 Theo em nghĩ, sau khi làm test và code thì em nhận ra chúng ta không nên chỉ dùng 1 thuật toán sort cho mọi dữ liệu, vì đôi khi với các bộ dữ liệu khác nhau thì sẽ
 tương thích với các test khác nhau.
 
+### Cách tiếp cận khác của vấn đề
+
+Ngoài những thực nghiệm trên, ta cũng không thể bỏ qua vấn đề ở phần cứng (CPU) đã gây ra sự chậm hơn giữa các khoảng thời gian chạy test, giải thuật và code cũng nên được cân nhắc vì có thể chưa tối ưu hóa được giải thuật (mergesort) nên dẫn đến mất cân đối trong thời gian trung bình chạy. 
+
 ![image](https://github.com/AhnMaph/reportIT03_sort/assets/157342518/450b27bb-647e-4820-a0d7-0f281b6dffff)
 

@@ -1,7 +1,7 @@
 ### Sự khác biệt cơ bản trong độ nhanh chậm
 
 Rõ ràng quicksort và các hàm có sẵn sort c++, python chiếm ưu thế hơn các giải thuật khác. Ngoài ra khi làm quicksort nó nhanh nhẹn hơn rất nhiều so với mergesort vì một lý do nào đó. Có thể
-là vì số liệu lớn đem đến lợi thế cho quicksort(?).
+là vì số liệu lớn và giải thuật tối ưu hơn đã đem đến lợi thế cho quicksort(?).
 
 Trái với giả thuyết rằng heap sort khá vô lý trên lớp, heap sort hoạt động khá tốt với bộ dữ liệu.
 
